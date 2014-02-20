@@ -1,6 +1,5 @@
 {
-  "name": "datauri-dimensions",
-  "repo": "component/datauri-dimensions",
+  "name": "component-datauri-dimensions",
   "description": "Parse the dimensions of a data URI png / jpeg",
   "version": "0.0.1",
   "keywords": [
@@ -11,21 +10,11 @@
     "dimensions",
     "utility"
   ],
-  "dependencies": {
-    "jpeg-size": "0.0.1",
-    "png-size": "0.1.0",
-    "data-uri-to-u8": "1.0.0"
-  },
-  "development": {},
-  "license": "MIT",
   "main": "index.js",
-  "component": {
-    "scripts": {
-      "datauri-dimensions/index.js": "index.js"
-    }
+  "dependencies": {
+    "component-jpeg-size": "git://github.com/npmcomponent/component-jpeg-size.git",
+    "component-png-size": "git://github.com/npmcomponent/component-png-size.git",
+    "component-data-uri-to-u8": "git://github.com/npmcomponent/component-data-uri-to-u8.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/datauri-dimensions.git"
-  }
+  "license": "MIT"
 }

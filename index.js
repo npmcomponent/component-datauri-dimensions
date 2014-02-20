@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-var toArray = require('data-uri-to-u8');
-var jpeg = require('jpeg-size');
-var png = require('png-size');
+var toArray = require('component-data-uri-to-u8');
+var jpeg = require('component-jpeg-size');
+var png = require('component-png-size');
 
 /**
  * Return the dimensions of data `uri`.
